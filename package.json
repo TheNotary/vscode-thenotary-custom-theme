@@ -1,0 +1,23 @@
+{
+  "name": "thenotary-custom-theme",
+  "displayName": "Custom Dark 2026",
+  "description": "Personal dark theme based on Dark 2026 with custom syntax highlighting",
+  "version": "1.0.0",
+  "publisher": "thenotary",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Custom Dark 2026",
+        "label": "Custom Dark 2026",
+        "uiTheme": "vs-dark",
+        "path": "./themes/custom-dark-2026.json"
+      }
+    ]
+  }
+}
